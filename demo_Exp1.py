@@ -12,15 +12,16 @@ Demo of experiement 1 in the paper: selecting the best classifier for a given fe
 from utils import SHSIC, file_check
 import time
 
+
 start_time = time.time()
 
 # settings
-dataset = "indianpines"
+dataset = "salinasA"
 feature = 'raw'   
 classifiers = ["KNN","GaussNB","LDA","LR","KSVM","DT","RF","GB","MLR"]   
 train_size = 0.01   
 repeat_num = 1     
-model_selection = False  
+model_selection = True  
 isdraw = True
 
 if isdraw==True:
@@ -28,7 +29,8 @@ if isdraw==True:
 
 # run 
 Cla_Acc_Mean,Cla_Acc_Std,Seg_Acc_Mean,Seg_Acc_Std,df_result = SHSIC(dataset,feature,classifiers,\
-                                                                    train_size,repeat_num,model_selection,isdraw)
+                                                                    train_size,repeat_num,\
+                                                                    model_selection,isdraw)
 
 
 print("---------------------------Results Summary-----------------------------")

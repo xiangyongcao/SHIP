@@ -13,15 +13,16 @@ from utils import SHSIC, file_check
 import time
 
 
+
 start_time = time.time()
 
 # settings
-dataset = "indianpines"
+dataset = "salinasA"
 features = ['raw','pca','lowrank','3ddwt','3dgabor', 'SAE']
 classifiers = [["RF"],["KSVM"],["RF"],["GB"],["KSVM"],["RF"]]
 train_sizes=[0.01]
 repeat_num = 1
-model_selection=False
+model_selection=True
 isdraw=True
 
 if isdraw==True:
@@ -33,7 +34,7 @@ for j in range(len(features)):
         # run 
         Cla_Acc_Mean,Cla_Acc_Std,Seg_Acc_Mean,Seg_Acc_Std,df_result = SHSIC(dataset,features[j],classifiers[j],\
                                                                         train_sizes[i],repeat_num,\
-                                                                        model_selection=False,isdraw=True)
+                                                                        model_selection,isdraw)
         DF[i] = df_result
 
 
