@@ -36,4 +36,4 @@ After downloading the datasets file, put it in the main directory of SHIP file.
    According to your needs, many parameters can be set in demo_Exp2.py.
 
 ## Contact:
-Xiangyong Cao: caoxiangyong45@gmail.com
+Xiangyong Cao:   caoxiangyong45@gmail.com  or   caoxiangyong@mail.xjtu.edu.cn
