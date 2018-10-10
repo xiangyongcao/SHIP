@@ -37,6 +37,18 @@ def main():
     #install spectral python
     pip_install('spectral')
 
+    #install os python
+    pip_install('os')
+    
+    #install shutil python
+    pip_install('shutil')
+    
+    #install math python
+    pip_install('math')
+    
+    #install time python
+    pip_install('time')
+    
     #install py_gco from https://github.com/amueller/gco_python
     pip_install('git+git://github.com/amueller/gco_python')
 
