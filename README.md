@@ -39,6 +39,4 @@ After downloading the datasets file, put it in the main directory of SHIP file.
 ## Contact:
 This package is still developing and this is the first version. In the next step, we prepare to embed the feature extraction methods into this package, thus it can implement the feature extraction (this package only provide some pre-extracted features by some offline code). 
 
-For the package of this version, we hope more reserachers in this field can provide your extracted feature data to me. Welcome to contact me. 
-
-Xiangyong Cao:   caoxiangyong45@gmail.com  or   caoxiangyong@mail.xjtu.edu.cn
+For the package of this version, we hope more reserachers in this field can provide your extracted feature data to me. Welcome to contact me (Xiangyong Cao:   caoxiangyong45@gmail.com  /  caoxiangyong@mail.xjtu.edu.cn).
