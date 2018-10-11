@@ -1,9 +1,9 @@
 ﻿# Supervised Hyperspectral Image Classification Package (SHIP)
 
 This is an open package (called **SHIP**) for supervised hyperspectral image classification task. Besides, this repository guarantees you to reproduce the results reported in the paper:
- - [Supervised Hyperspectral Image Classification: Benchmark and State of the Art](https://ieeexplore.ieee.org/abstract/document/8271995)
+ - [Supervised Hyperspectral Image Classification: Benchmark and State of the Art](https://ieeexplore.ieee.org/abstract/document/8271995) (This work is reviewing now and so the link is wrong.)
 
-If you think it helpful, we would appreciate if you cite the papers in your work.
+If you think it helpful, we would appreciate if you cite the papers in your work. 
 
 ## Setup
 ### Install Dependencies
@@ -35,5 +35,10 @@ After downloading the datasets file, put it in the main directory of SHIP file.
 
    According to your needs, many parameters can be set in demo_Exp2.py.
 
+
 ## Contact:
+This package is still developing and this is the first version. In the next step, we prepare to embed the feature extraction methods into this package, thus it can implement the feature extraction (this package only provide some pre-extracted features by some offline code). 
+
+For the package of this version, we hope more reserachers in this field can provide your extracted feature data to me. Welcome to contact me. 
+
 Xiangyong Cao:   caoxiangyong45@gmail.com  or   caoxiangyong@mail.xjtu.edu.cn
