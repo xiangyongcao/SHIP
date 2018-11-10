@@ -16,11 +16,11 @@ import time
 start_time = time.time()
 
 # settings
-dataset = "salinasA"
-feature = 'raw'   
+dataset = "salinasA"   # can be tuned
+feature = 'raw'       # can be tuned
 classifiers = ["KNN","GaussNB","LDA","LR","KSVM","DT","RF","GB","MLR"]   
 train_size = 0.01   
-repeat_num = 1     
+repeat_num = 2     
 model_selection = True  
 isdraw = True
 

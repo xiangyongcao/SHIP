@@ -16,12 +16,12 @@ import time
 
 start_time = time.time()
 
-# settings
-dataset = "salinasA"
-features = ['raw','pca','lowrank','3ddwt','3dgabor', 'SAE']
-classifiers = [["RF"],["KSVM"],["RF"],["GB"],["KSVM"],["RF"]]
+# settings 
+dataset = "salinasA"    # can be tuned
+features = ['raw','pca','lowrank','3ddwt','3dgabor', 'SAE', 'moglowrank']
+classifiers = [["RF"],["KSVM"],["RF"],["GB"],["KSVM"],["RF"],["RF"]]
 train_sizes=[0.01]
-repeat_num = 1
+repeat_num = 2
 model_selection=True
 isdraw=True
 

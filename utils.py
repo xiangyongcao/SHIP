@@ -47,7 +47,7 @@ def fstack(Data,n1,random_state):
     
 def load_data(string,feature_type='raw'):
 #    feature_type = feature_type.split('_')
-    DATA_PATH = os.path.join(os.getcwd(),"datasets")
+    DATA_PATH = os.path.join(os.getcwd(),"dataset")
     if feature_type=='raw':
         Data = scipy.io.loadmat(os.path.join(DATA_PATH, string+'.mat'))[string]
         ind = 0
@@ -55,7 +55,7 @@ def load_data(string,feature_type='raw'):
         Data = scipy.io.loadmat(os.path.join(DATA_PATH, string+'_3ddwt.mat'))[string+'_3ddwt']
         ind = 0
     if feature_type=='moglowrank':
-        Data = scipy.io.loadmat(os.path.join(DATA_PATH, string+'_mog_lowrank_rank_2.mat'))[string+'_mog_lowrank']
+        Data = scipy.io.loadmat(os.path.join(DATA_PATH, string+'_moglowrank.mat'))[string+'_moglowrank']
         ind = 0
     if feature_type=='lowrank':
         Data = scipy.io.loadmat(os.path.join(DATA_PATH, string+'_lowrank.mat'))[string+'_lowrank']
@@ -633,7 +633,7 @@ def SHSIC(dataset,feature,classifiers,train_size,repeat_num=1,model_selection=Tr
     """
     ----Input----
     dataset: name of dataset ('indianpines' 'pavia' 'paviaU' 'salinas' 'salinasA' 'KSC' 'Botswana') 
-    feature: name of feature ('raw'  lowrank'  '3ddwt'  '3dgabor'  'SAE')
+    feature: name of feature ('raw'  lowrank'  '3ddwt'  '3dgabor'  'SAE'   'moglowrank')
     classifiers: ["KNN","GaussNB","LDA","LR","KSVM","DT","RF","GB","MLR"] or select some from these 
     train_size: number of training samples in each class 
                 (train_size < 1 means the proportion for each class;   
