@@ -20,7 +20,7 @@ After downloading the datasets file, put it in the main directory of SHIP file.
 
 ## Reproducing the results
 
-1. To choose the best classifier for one given feature (also reproduce the result in Exp.1), execute
+1. To choose the best classifier for one given feature (also reproduce the result in Exp 4.1), execute
 
         python demo_Exp1.py
 
@@ -28,7 +28,7 @@ After downloading the datasets file, put it in the main directory of SHIP file.
    
    This package supports 7 datasets, 6 features (5 classical features and 1 deep feature), 9 classifiers, model selection for each classifier, post-processing classification map and drawing classification map for each method . 
 
-2. To reproduce the results in Exp.2, execute
+2. To reproduce the results in Exp 4.3, execute
 
         python demo_Exp2.py
 
