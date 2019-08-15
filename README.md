@@ -1,7 +1,7 @@
 ﻿# Supervised Hyperspectral Image Classification Package (SHIP)
 
 This is an open package (called **SHIP**) for supervised hyperspectral image classification task. Besides, this repository guarantees you to reproduce the results reported in the paper:
- - [Spectral-Spatial Hyperspectral Image Classification via Robust Low-Rank Feature Extraction and Markov Random Field](https://www.mdpi.com/2072-4292/11/13/1565) 
+ - [Xiangyong Cao, Zongben Xu and Deyu Meng, Spectral-Spatial Hyperspectral Image Classification via Robust Low-Rank Feature Extraction and Markov Random Field, Remote Sens. 2019, 11(13), 1565.](https://www.mdpi.com/2072-4292/11/13/1565) 
 
 If you use this code, pleae cite this paper in your work. 
 
